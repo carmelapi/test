@@ -1,6 +1,5 @@
 body {
   font-family: Avenir, sans-serif;
-  background-color: #0e100f;
   color: #fffce1;
   display: flex;
   align-items: center;
@@ -16,18 +15,17 @@ p {
 }
 
 .section {
-  background: blue;
   width: 100%;
   height: 600vh;
   position: relative;
 }
 
 .scroller {
-  width: 30%;
-  height: 200px;
+  width: 36%;
+  height: 105px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 33%;
   transform: translate(-50%, -50%);
   overflow: hidden;
 }
@@ -44,6 +42,9 @@ p {
 }
 
 .section-pinned {
+  background-image: url(/img/frida.png);
+  background-position: center;
+  background-repeat: no-repeat;
   position: sticky;
   top: 0;
   width: 100%;
