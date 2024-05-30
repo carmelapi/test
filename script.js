@@ -1,3 +1,6 @@
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 //gsap.to()... infinity and beyond!
 gsap.registerPlugin(ScrollTrigger);
 const containerWidth = document.querySelector(".eye-container").scrollWidth;
